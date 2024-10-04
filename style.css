@@ -1,0 +1,53 @@
+
+#foto1 {
+    width: 1550px;
+    height: 800px;
+}
+
+#barra {
+    background-color: #FFCE00;
+    padding: 8px;
+}
+
+#barra2 {
+    background-color: #FFCE00;
+    padding: 31px;
+}
+
+#barra3 {
+    background-color: #FFCE00;
+    padding: 29px;
+}
+
+
+@media (max-width: 768px) {
+    #foto1 {
+        width: 100%; 
+        height: auto; 
+    }
+
+    #barra, #barra2, #barra3 {
+        padding: 15px; 
+    }
+
+    .form-control {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+
+    .navbar {
+        flex-direction: column; 
+        align-items: center; 
+    }
+}
+
+@media (max-width: 480px) {
+    #barra3 {
+        padding: 10px; 
+    }
+
+    .navbar .navbar-brand {
+        margin: 5px 0; 
+        text-align: center; 
+    }
+}
